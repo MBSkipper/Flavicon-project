@@ -1,0 +1,273 @@
+/* FLAVICON CSS */
+
+/* Universal styles  */
+
+html {
+    font-family: "Roboto", sans-serif; 
+    font-size: 16px;
+  }
+
+main {
+  /*background-color:chartreuse; */
+  height: 97rem;
+}
+
+  /*  Header  */
+
+#headcontent {
+  display:flex;  
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 11rem;  /*  me  */
+  border-bottom: solid 2px grey;
+  background-color:coral;
+  z-index: 5;
+}
+
+.title-logo {
+  background-color:blueviolet;
+  padding: 0 0 0 50%;
+} 
+
+
+.title-logo-box {
+  width: 100%;
+  overflow: hidden;
+  background-color:deeppink; 
+  padding: 0 0 0 0;
+}
+
+.title /* h1 */ {
+  width: auto;
+  background-color: white; 
+   padding: 0 0 0 47%;
+}
+
+
+#headcontent /* .navigation ul */{
+  display: block; 
+} /**********/
+
+.navigation ul {  
+  display: flex; 
+  justify-content: center;  
+  align-self:center;
+  background-color: pink; 
+  z-index: 5;
+  list-style: none;
+  padding: 0 0;
+}
+
+.navigation li {
+  padding-left: 1.5rem;  /******/
+}  
+
+.navigation a {
+  /* vertical-align: bottom; */
+  line-height: 1.6;
+  font: normal 400 1rem "Roboto";
+  color: #4a4a4a;
+} 
+
+/* Banner  */
+
+#banner .banner-box {  
+  display: flex;
+  background-image: url(file:///Users/sylviaosborn/PROJECTS/Fotomatic/F1C1_start/resources/images/banner-landingpage.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  width: 100%;
+  height: 30rem;  
+  overflow: hidden;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#banner .statement {
+  display: flex;
+  width: 95%;
+  height: 3rem;
+  background-color: white;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items:center;
+  z-index: 2;
+}
+
+
+/* Products section  */
+
+.products-section {
+  display: flex;
+  background-color:brown;
+  height: 25rem;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 1rem;
+}
+
+.product-title {
+  background-color: ghostwhite;
+  justify-self: center;
+}
+
+.products-box {
+  display: flex;
+  background-color: palegreen; 
+  /* flex-direction: column;*/
+}
+
+.product {
+  display: inline-flex;
+  padding: 0.1rem;   
+  background-color:darkkhaki; 
+  height: 20rem;
+  justify-content: center; 
+  align-items: center; 
+  margin: 0.5rem 0.5rem;
+  flex: 1 1 auto;  
+  flex-direction: column; 
+}
+
+.prod-name {
+  background-color: beige; 
+  padding: 0 0.5 0 0.5rem;
+} 
+
+.image-container {
+  width: 50%;
+  height: 160px;
+  overflow: hidden;
+  justify-content:space-around;
+  border: 0.1rem solid black;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Quotation  */
+
+#quotation {
+  display: flex;
+  flex-direction: column; 
+  height: 10rem;
+  background-color: darkgrey;
+  justify-content: center;
+  align-items:center;
+  line-height: 0.25rem;
+  margin: 1rem 1rem;
+}
+
+.quote {
+  font: italic 600 1.5rem "Merienda";
+}
+
+.who {
+  display: inline;
+  font: normal 400 0.75rem;
+  padding: 1rem 1rem;
+}
+
+.question {
+  overflow-wrap: break-word;
+}
+
+
+/* Team section */
+.team {
+  display: flex;
+  background-color:lightgrey;
+  height: 25rem;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 1rem;
+}
+
+.team-title {
+  display: block;
+  /* width: auto; */
+  justify-content: center;
+  align-content: flex-start;
+  background-color: peachpuff; 
+}  
+
+.people-box {
+  display: flex;
+  background-color: aqua; 
+}
+
+.people {
+  display: inline-flex;
+  padding: 0.1rem;   
+  background-color:pink; 
+  height: 20rem;
+  justify-content: center; 
+  align-items: center; 
+  margin: 0.5rem 0.5rem;
+  flex: 1 1 auto;  
+  flex-direction: column;  
+}
+
+.name {
+  /* background-color: beige;  */
+  padding: 0 0 0 0.75rem;
+} 
+
+.people-pic {
+  width: 50%;
+  height: 200px;
+  overflow: hidden;
+  justify-content:space-around
+}
+
+.people-pic img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: 0.1rem solid darkblue;
+}
+
+
+/*  Footer  */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  background-color: coral;
+}
+  
+.logo-container {
+    width: 80%;
+    overflow: hidden;
+    /*background-color: blueviolet;  */
+    padding: 0.5rem 1.5rem 0.5rem 0;
+
+}
+  
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background-image: url(file:///Users/sylviaosborn/PROJECTS/Flavicon_Business_website/favicon.ico);
+}
+
+
+/*  Media Query adjustments  */
+
+/* For iPhone  */
+@media only screen and (max-width: 390px) and (max-height: 844px) {
+  
+  }
+
+/* For tablets */
+@media only screen and (max-width: 480px) {
+  
+}
